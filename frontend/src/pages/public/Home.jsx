@@ -25,7 +25,7 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20" />
+        <div className="absolute inset-0 bg-linear-to-b" />
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3')] bg-cover bg-center opacity-20" />
         
         <motion.div
@@ -34,8 +34,8 @@ const Home = () => {
           transition={{ duration: 0.8 }}
           className="relative z-10 text-center px-4"
         >
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            Welcome to RMS
+          <h1 className="text-5xl md:text-7xl h-40 font-bold mb-6 bg-linear-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent">
+            Welcome to Restaurant<br/>Management System
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Experience fine dining with our easy table booking system
